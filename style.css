@@ -1,35 +1,85 @@
 
     body{
         background-color: #CCCCCC;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        color: #FFFFFF;
     }
     .container{
-        background: linear-gradient(180deg, #37133D, #551A5F);
+        background: linear-gradient(180deg, #200D24, #501A59);
         margin: auto;
         width: 700px;
         height: 650px;
-        padding: 1.2rem;
+        padding: 20px;
         border-radius: 8px;
         overflow: hidden;
         
     }
-    .cards{
+    .header{
+        padding: 0.8rem;
+        text-align: center;
+    }
+    .header-title{
+        color: #FECD23;
+        
+        font-size: 25px;
+        font-weight: 600;
+        margin-bottom: 30px;
+    }
+    .header-text, .header-text2{
+        margin-bottom: 0.9rem;
+    }
+    .brinde{
+        font-weight: 600;
+    }
+    
+    .container-2{
         background: linear-gradient(180deg, #591B64, #280F2C);
-        display: flex;
-        border-radius: 7px;
+        
+        
+        border-radius: 8px;
         
         justify-content: space-around;
         
-        padding: 1rem;
        
+        margin-top: 40px;
+        
+    }
+
+    .cards{
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+    }
+    .text{
+       padding: 0.9rem;
+        text-align: center;
+        font-size: 27px;
+        font-weight: 400;
+        margin-bottom: 20px;
     }
     .box{
         background: linear-gradient(180deg, #2935CC, #302EA1);
+        
+        
         padding:9px;
         border-radius: 5px;
         
     }
     .card{
         background: linear-gradient(180deg, #3F61EF,#63ADFA);
-        color: #FFFFFF;
-        padding: 90px 40px;
+        
+        padding: 24px;
+
+        font-size: 20px;
+        text-align: center;
+    }
+    .image-group{
+        margin-top: 5px;
+        text-align: center;
+        
+    }
+    
+    object {
+    width: 100px;
+    height: 100px;
     }
