@@ -4,18 +4,37 @@
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
         color: #FFFFFF;
     }
+     object {
+    width: 100px;
+    height: 100px;
+    }
+    input {
+        width: 70%;
+        height: 5px;
+        padding: 0.9rem;
+        font-size: 1.2rem;
+        border-radius: 5px;
+        border: 0;
+        margin: 1rem;
+    }
+     input:focus{
+        outline: none;
+        box-shadow: 0 0 10px #1D0C20;
+    }
+
     .container{
         background: linear-gradient(180deg, #200D24, #501A59);
         margin: auto;
         width: 700px;
         height: 650px;
         padding: 20px;
+        
         border-radius: 8px;
         overflow: hidden;
         
     }
     .header{
-        padding: 0.8rem;
+        
         text-align: center;
     }
     .header-title{
@@ -57,6 +76,9 @@
         font-weight: 400;
         margin-bottom: 20px;
     }
+    .form{
+        margin-top: 16px;
+    }
     .box{
         background: linear-gradient(180deg, #2935CC, #302EA1);
         
@@ -79,7 +101,3 @@
         
     }
     
-    object {
-    width: 100px;
-    height: 100px;
-    }
